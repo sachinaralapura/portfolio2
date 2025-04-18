@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"); /* Example font */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-primary text-text-primary font-sans; /* Use defined colors */
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  /* Basic scrollbar styling */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: theme("colors.secondary");
+  }
+  ::-webkit-scrollbar-thumb {
+    background: theme("colors.accent");
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: theme("colors.highlight");
+  }
+}
