@@ -54,20 +54,29 @@ export const portfolioData = {
     {
       "name": "SkyCast",
       "description": "Effortlessly retrieve detailed weather information for any location across the globe. Utilizing the robust Open-Meteo API, provides in-depth forecasts.",
-      "image": "https://via.placeholder.com/300x200.png?text=SkyCast", // Placeholder
-      "link": "",
-      "githublink": "", // Add link if available
+      "image": "https://i.pinimg.com/1200x/50/a1/92/50a1926884e4e6f592367ad8e6c4276b.jpg", // Placeholder
+      "link": "https://sachinaralapura.github.io/SkyCast/",
+      "githublink": "https://github.com/sachinaralapura/SkyCast.git", // Add link if available
       "skills": ["ReactJs", "JavaScript", "CSS", "HTML", "API"]
     },
     {
-      "name": "FlickList",
-      "description": "Built to enhance your movie discovery and watchlist management experience. It leverages the OMDB API to provide a user-friendly interface for Browse movies, searching, and creating your personal movie watchlist.",
-      "image": "https://via.placeholder.com/300x200.png?text=FlickList", // Placeholder
-      "link": "",
-      "githublink": "", // Add link if available
-      "skills": ["ReactJs", "TypeScript", "CSS", "HTML", "OMDB API"]
+      "name": "TODO",
+      "description": "A streamlined task management application with JWT authentication for security and MongoDB for data storage.", // Slightly rephrased
+      "image": "https://i.pinimg.com/1200x/d7/21/b2/d721b220b67f68211e1f386ce275b136.jpg",
+      "link": "https://sachinaralapura.github.io/Todo2-client/",
+      "githublink": "https://github.com/sachinaralapura/Todo2-client.git",
+      "skills": ["ReactJs", "JWT", "MongoDb", "NodeJs", "ExpressJs"] // Added likely backend skills
     },
     // --- Include other projects from the JSON similarly ---
+    {
+      "name": "FlickList",
+      "description": "Built to enhance your movie discovery and watchlist management experience. It leverages the OMDB API to provide a user-friendly interface for Browse movies, searching, and creating your personal movie watchlist.",
+      "image": "https://i.pinimg.com/1200x/f0/ad/83/f0ad83b44956d3039803a0112b180a82.jpg", // Placeholder
+      "link": " https://sachinaralapura.github.io/FlickList/",
+      "githublink": "https://github.com/sachinaralapura/FlickList.git", // Add link if available
+      "skills": ["ReactJs", "TypeScript", "CSS", "HTML", "OMDB API"]
+    },
+
     {
       "name": "QuizWhiz",
       "description": "An engaging quiz application using a Restful API and Axios to dynamically fetch diverse questions, potentially including a scoring system.", // Slightly rephrased
@@ -76,14 +85,7 @@ export const portfolioData = {
       "githublink": "https://github.com/sachinaralapura/React-quiz.git",
       "skills": ["React", "GIT", "HTML", "CSS", "JS", "Axios", "API"]
     },
-    {
-      "name": "ToDone",
-      "description": "A streamlined task management application with JWT authentication for security and MongoDB for data storage.", // Slightly rephrased
-      "image": "https://i.pinimg.com/736x/00/11/9b/00119bff7b33010bd5ccbea97aa2d36a.jpg",
-      "link": "",
-      "githublink": "https://github.com/sachinaralapura/TODO.git",
-      "skills": ["Angular", "JWT", "MongoDb", "NodeJs", "ExpressJs"] // Added likely backend skills
-    },
+
     {
       "name": "NovelNest",
       "description": "A BookStore MERN Application providing a seamless experience for managing and exploring books using MongoDB, Express, React, and Node.js.",
@@ -122,7 +124,7 @@ export const portfolioData = {
     "social": [
       { "platform": "LinkedIn", "link": "https://www.linkedin.com/in/sachin-as-25692320a/", "img": "", "add": true },
       { "platform": "GitHub", "link": "https://github.com/sachinaralapura", "img": "", "add": true },
-      { "platform": "HackerRank", "link": "https://www.hackerrank.com/sachin_aralapura", "img": "https://i.pinimg.com/236x/5d/84/93/5d84930516cac6c802a95671c9acf511.jpg", "add": true },
+      { "platform": "HackerRank", "link": "https://www.hackerrank.com/sachin_aralapura", "img": "", "add": true },
       { "platform": "tel", "link": "+917019928531", "img": "", "add": true }
       // Add Email if desired:
       // { "platform": "email", "link": "mailto:your.email@example.com", "img": "", "add": true }

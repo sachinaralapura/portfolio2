@@ -26,7 +26,7 @@ const Contact = ({ contact }) => {
   };
 
   const handleCopy = (text, platformName) => {
-    navigator.clipboard.writeText(text  ).then(
+    navigator.clipboard.writeText(text).then(
       () => {
         toast.success(`${platformName} link copied!`, {
           duration: 2000,
@@ -117,12 +117,12 @@ const Contact = ({ contact }) => {
                   </a>
                   <motion.button // Replaced Button with standard HTML button and added motion
                     onClick={() => handleCopy(item.link, item.platform)}
-                    className="absolute right-0 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 text-text-secondary hover:text-highlight cursor-pointer transition-opacity" // Added cursor-pointer and transition
+                    className="absolute right-0  -translate-y-1/2 opacity-0 group-hover:opacity-100 text-text-secondary hover:text-highlight cursor-pointer transition-opacity" // Added cursor-pointer and transition
                     aria-label={`Copy ${item.platform} link`}
                     whileHover={{ scale: 1.2 }} // Add a slight scale on hover for better UX
-                    whileTap={{ scale: 1 }}
+                    whileTap={{ scale: 1.2 }}
                   >
-                    <IoCopy className="h-4 w-4" />
+                    <IoCopy className="h-6 w-6" />
                   </motion.button>
                 </div>
               );
