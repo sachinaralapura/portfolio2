@@ -14,8 +14,8 @@ export const portfolioData = {
       { "name": "JavaScript", "image": "https://i.pinimg.com/736x/af/1f/b4/af1fb4e8700c6aa2c5b8d3e915eb6e99.jpg", "exp": 1, "add": true },
       { "name": "ReactJs", "image": "https://i.pinimg.com/736x/3f/26/40/3f2640efdb2a1805ebbdef5e3d373937.jpg", "exp": 1, "add": true },
       { "name": "NodeJs", "image": "https://i.pinimg.com/736x/5e/da/8d/5eda8d1a06e57a7789581bb22a37cab3.jpg", "exp": 1, "add": true },
-      { "name": "ExpressJs", "image": "https://i.pinimg.com/736x/10/6d/23/106d230fb2dfec7d1fec8614ffa8fa3e.jpg", "exp": 1, "add": true },
       { "name": "Golang", "image": "https://i.pinimg.com/736x/09/ce/62/09ce62889fc7b51ee68835ac7a2340f8.jpg", "exp": 1, "add": true },
+      { "name": "ExpressJs", "image": "https://i.pinimg.com/736x/10/6d/23/106d230fb2dfec7d1fec8614ffa8fa3e.jpg", "exp": 1, "add": true },
       { "name": "C++", "image": "https://i.pinimg.com/236x/ff/03/e2/ff03e272b99f9aa0b467289a98b63084.jpg", "exp": 1, "add": true },
       { "name": "Python", "image": "https://i.pinimg.com/736x/82/a2/18/82a2188c985ce75402ae44fc43fe7e5e.jpg", "exp": 1, "add": true }, // Included from JSON
       { "name": "MongoDb", "image": "https://i.pinimg.com/236x/e8/ab/b4/e8abb49f605c7f61553c8268ef0a56aa.jpg", "exp": 1, "add": true },
@@ -97,7 +97,7 @@ export const portfolioData = {
     {
       "name": "Calculator",
       "description": "A fully functional, modern calculator built with HTML, CSS, and JavaScript for basic and advanced operations.",
-      "image": "https://i.pinimg.com/236x/72/7d/58/727d58554ce1c37412914d14c7951ad0.jpg",
+      "image": "https://i.pinimg.com/1200x/6c/fe/f8/6cfef871ab565a4ae21b7297bd998cad.jpg",
       "link": "https://sachinaralapura.github.io/WSA/Projects/Calculator/level2/",
       "githublink": "https://github.com/sachinaralapura/WSA/tree/main/Projects/Calculator/level2",
       "skills": ["HTML", "CSS", "JavaScript"]
@@ -108,6 +108,14 @@ export const portfolioData = {
       "image": "https://i.pinimg.com/236x/da/1d/b1/da1db1452129ce8557f08c8983403752.jpg",
       "link": "https://sachinaralapura.github.io/WSA/Projects/image_slider/level2/",
       "githublink": "https://github.com/sachinaralapura/WSA/tree/main/Projects/image_slider/level2",
+      "skills": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "Assignments",
+      "description": "Collection of assignment done in WSA. Include html and js assignments",
+      "image": "https://vinagsv-portfolio.netlify.app/images/web/assignments.webp",
+      "link": "https://wsa-assignments.netlify.app/",
+      "githublink": "",
       "skills": ["HTML", "CSS", "JavaScript"]
     }
     // --- Expenzo project was missing skills, add them if known ---
