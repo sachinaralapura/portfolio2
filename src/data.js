@@ -52,6 +52,14 @@ export const portfolioData = {
       "skills": ["TypeScript", "JavaScript", "VS Code API", "Ollama", "GIT"] // Adjusted skills
     },
     {
+      "name": "SysMonitor",
+      "description": "A comprehensive system resource monitor desktop application designed to provide users with detailed insights into their system's performance. Built using a robust stack of Electron.js for cross-platform desktop support",
+      "image": "https://i.pinimg.com/1200x/64/33/93/64339318a1d714f2f5263b6e8409f8d8.jpg",
+      "link": "",
+      "githublink": "https://github.com/sachinaralapura/system-monitor.git",
+      "skills": ["Electronjs", "typescript", "javascript"]
+    },
+    {
       "name": "SkyCast",
       "description": "Effortlessly retrieve detailed weather information for any location across the globe. Utilizing the robust Open-Meteo API, provides in-depth forecasts.",
       "image": "https://i.pinimg.com/1200x/50/a1/92/50a1926884e4e6f592367ad8e6c4276b.jpg", // Placeholder
